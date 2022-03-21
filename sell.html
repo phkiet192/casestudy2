@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="yourpath/magic.css">
+    <title>THE SHOP GAME</title>
+    <style>
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+    </style>
+</head>
+<body>
+  <header class="container" >
+    <div class="container-fluid">
+      <div class="center-head ">
+        <div class="row justify-content-evenly align-items-center logo">
+          <div class="col col-3 ">
+            
+            <a href="/34shop.html">
+              <img src="/img/logo-removebg-preview.png" alt="" class="logo-img ">
+            </a>
+          </div>
+
+          <div class="col col-3 search-form">
+            <div class="input-group">
+              <div class="form-outline">
+                <input id="search-input" type="search" id="form1" class="form-control" placeholder="Tìm kiếm sản phẩm"
+                  style="height: 50px;" />
+              </div>
+              <button id="search-button" type="button" class="btn btn-primary">
+                <i class='bx bx-search'></i>
+              </button>
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="head-btn">
+              <Button>GIỎ HÀNG/0VND<span><i class='bx bx-shopping-bag'></i></span> </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- NAV-BAR CHƯA FIX -->
+      <div class="bottom-head ms-5 ">
+        <nav class="navbar navbar-expand-lg ms-5 ">
+          <div class="container ms-5">
+            <div class="collapse navbar-collapse ms-5 " id="navbarNavDarkDropdown">
+              <ul class="navbar-nav  border-right ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/sell.html">PLAYSTATION5(PS5)</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav  border-right">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    NINTEDOSWICH
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">MÁY NINTEDO</a></li>
+                    <li><a class="dropdown-item" href="#">GAME NINTEDO</a></li>
+                    <li><a class="dropdown-item" href="#">PHỤ KIỆN PS5</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navbar-nav  border-right">
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    FIGURE
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">WAIFU</a></li>
+                    <li><a class="dropdown-item" href="#">BEST SELL</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navbar-nav  border-right">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    TAY CẦM GAME
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">PS5</a></li>
+                    <li><a class="dropdown-item" href="#">NINTEDO</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navbar-nav  border-right">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    THẺ GAME
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">PS</a></li>
+                    <li><a class="dropdown-item" href="#">NINTEDO</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navbar-nav  border-right">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    DỊCH VỤ
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">LẮP ĐẶT TẠI NHÀ</a></li>
+                    <li><a class="dropdown-item" href="#">BẢO HÀNH MÁY</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navbar-nav border-right">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/blog.html">BLOG</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">LIÊN HỆ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- END NAV BAR  -->
+    </div>
+  </header>
+  <div class="slide-show mb-5 ">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/firstslide.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/second slide.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/slide44.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+ 
+
+  <section class="main-sell2 container blog-move ">
+    <div class="row container " >
+      <div class="col col-lg-3 ">
+        <div class="contact-us text-center text-fix" id="contact-us">
+          <h1>LIÊN HỆ VỚI CHÚNG TÔI</h1>
+          <a href="">Hotline: 0979.289.111</a><br>
+          <a href="">Địa Chỉ: 28 Lương Thế Vinh, Thanh Xuân, Hà Nội</a>
+        </div>
+        <div class="best-seller mt-5 sell-advan text-fix ">
+          <div class="seller-content text-center ">
+            <h2 class="mb-5 ">GỢI Ý CHO BẠN</h2>
+            <div class="row mb-5">
+              <div class="col col-6 ">
+                <img src="/img/gif4.webp" alt="" class="w-100">
+              </div>
+              <div class="col col-6">
+                <img src="/img/gif10.gif" alt="" class="w-100">
+              </div>
+            </div>
+            <h2>ĐĨA GAME PS5</h2>
+          </div>
+          <div class="game-advan mt-5 ">
+            <div class="row mb-lg-5 blog-move">
+              <div class="col col-6">
+                <img src="/img/game3.jpg" class="w-100" alt="">
+              </div>
+              <div class="col col-6  text-center ">
+                <p>Spider Man</p>
+                <p>1.000.000VND</p>
+                <a href="#" class="btn btn-dark">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="row mb-lg-5 blog-move">
+              <div class="col col-6 text-center">
+                <img src="/img/game11.jpg" class="w-100" alt="">
+              </div>
+              <div class="col col-6 text-center ">
+                <p>Call of Duty</p>
+                <p>1.000.000VND</p>
+                <a href="#" class="btn btn-dark">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="row mb-lg-5 blog-move">
+              <div class="col col-6 text-center">
+                <img src="/img/game7.jpg" class="w-100" alt="">
+              </div>
+              <div class="col col-6 text-center">
+                <p>Village</p>
+                <p>1.000.000VND</p>
+                <a href="#" class="btn btn-dark">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="row mb-lg-5 blog-move">
+              <div class="col col-6 text-center">
+                <img src="/img/game13.jpg" class="w-100" alt="">
+              </div>
+              <div class="col col-6 text-center">
+                <p>Mortal Kombat</p>
+                <p>1.000.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+     
+      </div>
+      <div class="col col-lg-9">
+        <div class="row">
+          <p class="fw-bold">Máy/Game PS5 hay còn được gọi là PS5 Digital Edition là thế hệ máy chơi game mới nhất. Phù hợp với Playstation 5 của Sony được bán song song với phiên bản tiêu chuẩn. Nhưng với ổ đĩa Blue-ray 4K được giảm bớt. Điều đó có nghĩa là máy chỉ chơi được game kỹ thuật số PS5. Và không thể mua game PS5 Blu-ray đĩa quang để chơi như bình thường.</p>
+          <div class="col col-lg-3 col-md-6 col-sm-6">
+            <img src="/img/gif1.gif" alt="" class="w-100 mb-5">
+            <img src="/img/gif2.gif" alt="" class="w-100 mb-5">
+            <img src="/img/giphy3.gif" alt="" class="w-100 mb-5">
+            <img src="/img/gif4.webp" alt="" class="w-100 mb-5">
+            <img src="/img/gif5.webp" alt="" class="w-100 mb-5">
+            <img src="/img/gif6.webp" alt="" class="w-100 mb-5">
+            <img src="/img/gif8.webp" alt="" class="w-100 mb-5">
+            <img src="/img/gif9.webp" alt="" class="w-100 mb-5">
+            <img src="/img/gif10.gif" alt="" class="w-100 mb-5">
+            
+          </div>
+          <div class="col col-lg-3 col-md-6 col-sm-6 ">
+            <div class="card text-center mb-lg-5 blog-move " style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-6 col-sm-6">
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-6 col-sm-6 ">
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text text-center">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title ">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+            <div class="card text-center mb-lg-5 blog-move" style="width: 100%;">
+              <img src="/img/product1.png" class="card-img-top" alt="...">
+              <img src="/img/realprod1.jfif" class="img-top w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Máy PS5 Playstation 5 CFI1015A Chính</h5>
+                <p class="card-text ">17.490.000VND</p>
+                <a href="#" class="btn btn-dark ">Thêm vào giỏ hàng</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="container mt-5 ">
+    <div class="container row align-items-center">
+      <div class="col col-lg-3 col-md-12 col-sm-12">
+        <h3>GIỚI THIỆU</h3>
+        <p>34GameShop đơn vị bán lẻ các sản phẩm máy chơi game, tay cầm, đĩa game, phụ kiện chính hãng Sony PS4, PS3, PS2, Nintendo Switch, Microsoft Xbox One…</p>
+        <a href="#">XEM THÊM</a>
+      </div>
+      <div class="col col-lg-3 col-md-12 col-sm-12">
+        <h3>LIÊN HỆ</h3>
+        <p>Địa Chỉ: Số 28 Lương Thế Vinh, Thanh Xuân, Hà Nội.</p>
+        <p>Hotline: 0979.289.111</p>
+        <p>Email: 34gameshop@gmail.com</p>
+        <p>Thời Gian Làm Việc: 8h30 Sáng – 22h00 Tối</p>
+      </div>
+      <div class="col col-lg-3 col-md-12 col-sm-12">
+        <h3>THÔNG TIN</h3>
+        <div class="row">
+         <a class="w-" href="">Hướng dẫn mua hàng</a>
+        </div>
+        <div class="row">
+         <a href="">Chính sách bảo hành</a>
+        </div>
+        <div class="row">
+         <a href="">Phương thức vận chuyển</a>
+        </div>
+        <div class="row">
+         <a href="">Chính sách đổi trả</a>
+        </div>
+        <div class="row">
+         <a href="">Mua hàng trả góp</a>
+        </div>
+        <div class="row">
+         <a href="">Quy định chung</a>
+        </div>
+        <div class="row">
+         <a href="">Tuyển dụng</a>
+        </div>
+        
+      </div>
+      <div class="col col-lg-3 col-md-12 col-sm-12">
+        <h3>THEO DÕI</h3>
+        <img src="img/theodoi1.png" class="w-100" alt="">
+        <img src="img/theodoi2.png" class="w-100" alt="">
+        <img src="img/theodoi3.png" class="w-100" alt="">
+      </div>
+    </div>
+ </footer>
+</body>
+</html>

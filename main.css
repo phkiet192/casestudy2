@@ -1,0 +1,316 @@
+header, footer {
+  background-color: #52a7c1;
+  background-image: linear-gradient(315deg, #52a7c1 0%, #b3f6d8 74%);
+}
+
+header {
+  height: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.center-head .logo-img {
+  width: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+}
+
+.center-head #search-input {
+  width: 250%;
+}
+
+.center-head .input-group {
+  position: relative;
+  bottom: 50px;
+  right: 240px;
+}
+
+.center-head #search-button {
+  position: relative;
+  left: 270px;
+}
+
+.center-head .head-btn {
+  position: relative;
+  bottom: 50px;
+}
+
+.head-btn Button {
+  background-color: #3eadcf;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+  font-weight: 500;
+}
+
+.head-btn i {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.bottom-head {
+  position: relative;
+  bottom: 100px;
+}
+
+.next-icon,
+.back-icon {
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0.4;
+  -webkit-transition: opacity,0.1s;
+  transition: opacity,0.1s;
+}
+
+.next-icon:hover {
+  opacity: 1;
+}
+
+.back-icon:hover {
+  opacity: 1;
+}
+
+.opa-img:hover {
+  opacity: 0.7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.line-brk p {
+  background-color: darkslategray;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+.line-brk p:hover {
+  background-color: black;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#section-title h1 {
+  border: 5px solid gainsboro;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#section-title i {
+  font-size: 28px;
+  position: relative;
+  left: 7px;
+  top: 3px;
+}
+
+#section-title a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+}
+
+.border-right {
+  border-right: 1px solid #52a7c1;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+}
+
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.card:hover .img-top {
+  display: block;
+}
+
+footer {
+  color: black;
+  background-color: black;
+}
+
+#contact-us {
+  border: 2px solid gainsboro;
+}
+
+#contact-us a {
+  text-decoration: none;
+}
+
+.main-sell2 h1, .main-sell2 h2 {
+  font-size: 30px;
+}
+
+.header-blog {
+  background-image: url(/img/gif5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+}
+
+.img-blog {
+  width: 20%;
+}
+
+#sideNav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  background-color: #52a7c1;
+  background-image: linear-gradient(315deg, #52a7c1 0%, #b3f6d8 74%);
+  z-index: 2;
+  -webkit-transition: right 0.5s;
+  transition: right 0.5s;
+}
+
+#sideNav nav ul li a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  list-style-type: none;
+}
+
+#sideNav nav ul li {
+  list-style: none;
+  margin: 50px 0px;
+}
+
+#sideNav nav ul li:hover a {
+  color: #52a7c1;
+  position: relative;
+  top: 10px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#menuBtn img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+#menuBtn {
+  width: 80px;
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 60px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.bottom-head ul li a {
+  color: black;
+}
+
+.bottom-head ul li a:hover {
+  color: #3eadcf;
+  position: relative;
+  bottom: 10px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+footer p, footer a {
+  font-weight: bold;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+.xtc-ps h1 span {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #52a7c1;
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.xtc-ps h1:hover span {
+  width: 100%;
+}
+
+.xtc-ps h1:hover {
+  color: white;
+}
+
+.blog-move {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.blog-move img:hover {
+  opacity: 0.7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#main-blog a:hover {
+  color: black;
+  position: relative;
+  bottom: 20px;
+}
+
+.push-special {
+  position: relative;
+  left: 500px;
+}
+
+@media screen and (max-width: 576px) {
+  .line-brk {
+    display: none;
+  }
+  .main-sell2 {
+    display: none;
+  }
+  .line-img {
+    display: none;
+  }
+  .xtc-ps h1 {
+    width: 100%;
+  }
+  .xtc-ps a {
+    display: none;
+  }
+  #sideNav, #menuBtn {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .line-img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
